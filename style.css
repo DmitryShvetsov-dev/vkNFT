@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background-color: #edeef0;
+}
+nav {
+  display: flex;
+  height: 45px;
+  background-color: white;
+  border-bottom: 1px solid #e1e3e6;
+  align-items: center;
+}
+.logo {
+  margin-left: 20%;
+}
+.whitebox {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+}
+.imgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 500px;
+}
+.textBox {
+  height: 600px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+#textName {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+}
+#description {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  text-align: center;
+}
+#counter {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  align-self: flex-end;
+}
+#vkPayButton {
+  height: 40px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  align-self: flex-end;
+  border-radius: 10px;
+  border: 0px solid;
+  background-color: #0077ff;
+  color: white;
+}
+#vkPayButton:hover {
+  background-color: #4695f0;
+}
+#or {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  align-self: flex-end;
+  margin-right: 85px;
+  color: #cccccc;
+}
+#metamaskButton {
+  height: 40px;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  align-self: flex-end;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+#metamaskButton:hover {
+  background-color: rgb(255, 166, 0);
+  color: white;
+}
+#thanksLetter {
+  margin-top: 250px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+  text-align: center;
+  display: none;
+}
+#buyNFT {
+  display: none;
+}
